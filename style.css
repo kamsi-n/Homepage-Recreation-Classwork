@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(pexels-jess-bailey-designs-743986.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+li {
+    margin: 2em;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(59, 59, 109);
+    padding-top: 7%;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: gray;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.buttons {
+    margin: auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.blue {
+    background-color: rgba(7, 156, 156, 0.993);
+    font-size: 15px;
+    padding: 17px 29px;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.white {
+    background-color: white;
+    font-size: 15px;
+    padding: 17px 29px;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+ img {
+    max-width: 120px;
+    position: absolute;
+    left: 3em;
+    top: 1em;
+    margin: 0 10px 0 0;
+}
+
+.login {
+    position: absolute;
+    right: 4em;
+    top: 2em;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 17px 29px;
+    border: 2px solid rgba(7, 156, 156, 0.993);
+    border-radius: 1rem;
+    color: rgba(7, 156, 156, 0.993);
+    align-items: center;
+}
